@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1521887961 source:d:\code\snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	"control/Gamecontrol.h"
+
+1519356244 d:\code\snake\common\winapihelp.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+
+1519356244 source:d:\code\snake\common\winapihelp.c
+	"WinApiHelp.h"
+
+1520954362 d:\code\snake\view\gamepanel.h
+	"../model/GameDate.h"
+	"../control/Gamecontrol.h"
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+	"KeyHandle.h"
+
+1521120019 source:d:\code\snake\view\gamepanel.c
+	"GamePanel.h"
+
+1521119211 source:d:\code\snake\view\keyhandle.c
+	"KeyHandle.h"
+
+1519395765 d:\code\snake\view\keyhandle.h
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+
+1520954362 d:\code\snake\view\controlpanel.h
+	"../common/WinApiHelp.h"
+	<string.h>
+
+1521041981 source:d:\code\snake\view\controlpanel.c
+	"ControlPanel.h"
+
+1520954362 source:d:\code\snake\view\settingpanel.c
+	"SettingPanel.h"
+
+1520323077 d:\code\snake\view\settingpanel.h
+	"../model/GameDate.h"
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+	"KeyHandle.h"
+
+1521888522 source:d:\code\snake\control\gamecontrol.c
+	"Gamecontrol.h"
+
+1521125557 d:\code\snake\control\gamecontrol.h
+	"../model/GameDate.h"
+	"../common/WinApiHelp.h"
+	"../view/ControlPanel.h"
+	"../view/GamePanel.h"
+	"../view/KeyHandle.h"
+	"../view/SettingPanel.h"
+	<mmsystem.h>
+
+1521106241 d:\code\snake\model\gamedate.h
+	"../common/WinApiHelp.h"
+	"../view/ControlPanel.h"
+	"../view/GamePanel.h"
+	"../view/KeyHandle.h"
+	"../view/SettingPanel.h"
+
+1521888106 source:d:\code\snake\model\gamedate.c
+	"GameDate.h"
+	<time.h>
+
