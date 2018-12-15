@@ -1,2 +1,5 @@
 # snake
-C语言版贪吃蛇
+## C语言版贪吃蛇
+### ScreenShots
+![](/screenshots/s1.gif)
+![](/screenshots/s2.gif)
