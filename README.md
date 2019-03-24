@@ -9,3 +9,6 @@
 3、snake触碰到自己身体，游戏结束 <br>
 ### Download
 [手动下载snake.exe](https://github.com/rain9155/snake/blob/master/bin/Debug/snake.exe)
+
+## 谈谈MVC
+我们来看一下典型的MVC结构图：
