@@ -70,3 +70,74 @@
 	"GameDate.h"
 	<time.h>
 
+1530540755 source:j:\code\snake\common\winapihelp.c
+	"WinApiHelp.h"
+
+1530540753 j:\code\snake\common\winapihelp.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+
+1530540751 source:j:\code\snake\control\gamecontrol.c
+	"Gamecontrol.h"
+
+1530540749 j:\code\snake\control\gamecontrol.h
+	"../model/GameDate.h"
+	"../common/WinApiHelp.h"
+	"../view/ControlPanel.h"
+	"../view/GamePanel.h"
+	"../view/KeyHandle.h"
+	"../view/SettingPanel.h"
+	<mmsystem.h>
+
+1530540743 j:\code\snake\model\gamedate.h
+	"../common/WinApiHelp.h"
+	"../view/ControlPanel.h"
+	"../view/GamePanel.h"
+	"../view/KeyHandle.h"
+	"../view/SettingPanel.h"
+
+1530540733 j:\code\snake\view\controlpanel.h
+	"../common/WinApiHelp.h"
+	<string.h>
+
+1530540728 j:\code\snake\view\gamepanel.h
+	"../model/GameDate.h"
+	"../control/Gamecontrol.h"
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+	"KeyHandle.h"
+
+1530540724 j:\code\snake\view\keyhandle.h
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+
+1530540719 j:\code\snake\view\settingpanel.h
+	"../model/GameDate.h"
+	"../common/WinApiHelp.h"
+	"ControlPanel.h"
+	"KeyHandle.h"
+
+1530540583 source:j:\code\snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	"control/Gamecontrol.h"
+
+1530540748 source:j:\code\snake\model\gamedate.c
+	"GameDate.h"
+	<time.h>
+
+1530540735 source:j:\code\snake\view\controlpanel.c
+	"ControlPanel.h"
+
+1530540731 source:j:\code\snake\view\gamepanel.c
+	"GamePanel.h"
+
+1530540723 source:j:\code\snake\view\settingpanel.c
+	"SettingPanel.h"
+
+1530540726 source:j:\code\snake\view\keyhandle.c
+	"KeyHandle.h"
+
