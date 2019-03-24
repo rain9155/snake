@@ -148,7 +148,7 @@ void key_handle(directionKey* direction_key,mappingKey* mapping_key,int len)
 /**
  * 返回被选中的菜单选项文字的下标的函数的实现
  * text 游戏菜单文字数组
- * len 游戏菜单文字数组长度
+ * len  游戏菜单文字数组长度
  * forecolor 被选中的文字的前景色
  */
 int return_selected_Index(Text* text,int len,int forecolor)

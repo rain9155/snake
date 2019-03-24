@@ -8,7 +8,7 @@
 */
 
 #include "../model/GameDate.h"
-#include "../control/Gamecontrol.h"
+
 #include "../common/WinApiHelp.h"
 #include "ControlPanel.h"
 #include "KeyHandle.h"

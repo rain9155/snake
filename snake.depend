@@ -103,9 +103,8 @@
 	"../common/WinApiHelp.h"
 	<string.h>
 
-1530540728 j:\code\snake\view\gamepanel.h
+1553426139 j:\code\snake\view\gamepanel.h
 	"../model/GameDate.h"
-	"../control/Gamecontrol.h"
 	"../common/WinApiHelp.h"
 	"ControlPanel.h"
 	"KeyHandle.h"
