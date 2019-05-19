@@ -20,7 +20,7 @@ MVC是一种框架模式，MVC的发展有40多年了，经过历史的演变，
 可以看出MVC通过分层把逻辑交互，数据处理，视图展示分成不同的模块，但由于因为各模块之间逻辑并不是很清晰，对于Model和View而言，Controller职责模糊，因此对于复杂的逻辑而言，导致很多时候我们在不确定某个逻辑是哪个模块负责的情况下，不知道如何确定Controller的责任。所以这种模式有利也有弊。
 <br><br>
 snake中用到的MVC模式是在典型的MVC模式下修改的，结构图如下：<br>
-![snake中的MVC结构](/screenshots/s4.png)
+![snake中的MVC结构](https://github.com/rain9155/snake/blob/master/screenshots/s4.png)
 <br>
 这里的View到Controller之间砍掉了一条线,Controller不用响应View的事件逻辑，只是简单的整合View和Model之间的关系，View和Model的职责还是原来那样，这里的View主要干的工作是绘制游戏面板、设置面板等，还要根据用户按键的输入（如用户按了上下左右）去Model中改变小蛇的坐标，还要从model中获取数据刷新游戏界面等，主要干的工作是存放小蛇的数据,食物的数据，并根据View的响应来修改小蛇的坐标等。
 <br>
