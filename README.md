@@ -1,5 +1,5 @@
 # snake
-## C语言版贪吃蛇, 采用MVC架构
+### C语言版贪吃蛇, 采用MVC架构
 ### ScreenShots
 ![](/screenshots/s1.gif)
 ![](/screenshots/s2.gif)
